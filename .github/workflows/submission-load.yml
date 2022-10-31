@@ -56,7 +56,7 @@ jobs:
       - name: Run k6 test
         uses: grafana/k6-action@v0.2.0
         with:
-          filename: ./tests/performance/submission-load/src/index.js
+          filename: ./submission-load/src/index.js
           flags: --out json=results.json --http-debug
         env:
           KEYCLOAK_URL: ${{inputs.keycloak_url}}
