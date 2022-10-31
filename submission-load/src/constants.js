@@ -1,0 +1,1 @@
+export default KEYCLOAK_URL = process.env.KEYCLOAK_URL || 'https://formsflow-eks.aot-technologies.com/auth';
